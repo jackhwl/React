@@ -4,22 +4,12 @@ import './App.css';
 
 class App extends Component {
   render() {
+    var helloWorld = 'Welcome to React';
+    const o = {firstName: 'Jack', lastName: 'Huang'};
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h2>{helloWorld}</h2>
+        <h3>{o.firstName} {o.lastName}</h3>
       </div>
     );
   }
