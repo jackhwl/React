@@ -22,22 +22,39 @@ const list = [
 ];
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {list};
+    this.onDismiss = this.onDismiss.bind(this);
+  }
+  onDismiss(id){
+    const isNotId = item => item.objectID !== id;
+    const updatedList = this.state.list.filter(isNotId);
+    this.setState({list: updatedList });
+  }
+  
   render() {
     var helloWorld = 'Welcome to React';
-    const o = {firstName: 'Jack', lastName: 'Huang'};
+    const o = {firstName: 'Jack2', lastName: 'Huang'};
     return (
       <div className="App">
         <h2>{helloWorld}</h2>
         <h3>{o.firstName} {o.lastName}</h3>
         {
-          list.map((item)=>
+          this.state.list.map(item=>
           <div key={item.objectID}>
             <span>            
               <a href={item.url}>{item.title}</a>
             </span>
-              <span>{item.author}</span>
-              <span>{item.num_comments}</span>
-              <span>{item.points}</span>
+            <span>{item.author}</span>
+            <span>{item.num_comments}</span>
+            <span>{item.points}</span>
+
+            <span>
+              <button onClick={()=> this.onDismiss(item.objectID)} type="button" >
+                Dismiss
+              </button>
+            </span>
           </div>)
         }
       </div>
