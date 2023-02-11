@@ -14,3 +14,4 @@
 * Demo: Simple Routing
 ## Section 6: Props, State, Lifecycle Methods, and Keys
 * Demo: Lifecycle Methods and State
+* Demo: Display Array in a Table via Map
