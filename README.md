@@ -12,3 +12,5 @@
 * Demo: Create App Entry Point
 * Demo: Create Class Component
 * Demo: Simple Routing
+## Section 6: Props, State, Lifecycle Methods, and Keys
+* Demo: Lifecycle Methods and State
