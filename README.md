@@ -18,3 +18,4 @@
 * Keys
 ## Section 7: Hooks, Component Composition, and PropTypes
 * Demo: Hooks
+* Demo: Controller Views
