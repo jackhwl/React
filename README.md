@@ -16,3 +16,5 @@
 * Demo: Lifecycle Methods and State
 * Demo: Display Array in a Table via Map
 * Keys
+## Section 7: Hooks, Component Composition, and PropTypes
+* Demo: Hooks
