@@ -28,3 +28,5 @@
 * Demo: Redirects
 * Demo: URL Parameters
 * Demo: Prompt on Transition
+## Section 9: Forms
+* Create Course Form
