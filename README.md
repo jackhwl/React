@@ -20,3 +20,5 @@
 * Demo: Hooks
 * Demo: Controller Views
 * PropTypes and Default Props
+## Section 8: React Router
+* Demo: Declaring Routes
