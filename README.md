@@ -34,3 +34,4 @@
 * Form State and Change Handles
 * Declaring State Change Handles
 * Creating Reusable Inputs
+* Consuming Reusable Inputs
