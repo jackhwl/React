@@ -24,3 +24,4 @@
 * Demo: Declaring Routes
 * Demo: Links
 * Demo: NavLinks
+* Demo: 404s
