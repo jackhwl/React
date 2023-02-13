@@ -25,3 +25,4 @@
 * Demo: Links
 * Demo: NavLinks
 * Demo: 404s
+* Demo: Redirects
