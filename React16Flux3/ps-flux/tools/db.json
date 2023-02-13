@@ -1,1 +1,248 @@
-{"courses":[{"id":1,"title":"Securing React Apps with Auth0","slug":"react-auth0-authentication-security","authorId":1,"category":"JavaScript"},{"id":2,"title":"React: The Big Picture","slug":"react-big-picture","authorId":1,"category":"JavaScript"},{"id":3,"title":"Creating Reusable React Components","slug":"react-creating-reusable-components","authorId":1,"category":"JavaScript"},{"id":4,"title":"Building a JavaScript Development Environment","slug":"javascript-development-environment","authorId":1,"category":"JavaScript"},{"id":5,"title":"Building Applications with React and Redux","slug":"react-redux-react-router-es6","authorId":1,"category":"JavaScript"},{"id":6,"title":"Building Applications in React and Flux","slug":"react-flux-building-applications","authorId":1,"category":"JavaScript"},{"id":7,"title":"Clean Code: Writing Code for Humans","slug":"writing-clean-code-humans","authorId":1,"category":"Software Practices"},{"id":8,"title":"Architecting Applications for the Real World","slug":"architecting-applications-dotnet","authorId":1,"category":"Software Architecture"},{"id":9,"title":"Becoming an Outlier: Reprogramming the Developer Mind","slug":"career-reboot-for-developer-mind","authorId":1,"category":"Career"},{"id":10,"title":"Web Component Fundamentals","slug":"web-components-shadow-dom","authorId":1,"category":"HTML5"}],"authors":[{"id":1,"name":"Cory House"},{"id":2,"name":"Scott Allen"},{"id":3,"name":"Dan Wahlin"}]}
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Securing React Apps with Auth0",
+      "slug": "react-auth0-authentication-security",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "React: The Big Picture",
+      "slug": "react-big-picture",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 3,
+      "title": "Creating Reusable React Components",
+      "slug": "react-creating-reusable-components",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 4,
+      "title": "Building a JavaScript Development Environment",
+      "slug": "javascript-development-environment",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 5,
+      "title": "Building Applications with React and Redux",
+      "slug": "react-redux-react-router-es6",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 6,
+      "title": "Building Applications in React and Flux",
+      "slug": "react-flux-building-applications",
+      "authorId": 1,
+      "category": "JavaScript"
+    },
+    {
+      "id": 7,
+      "title": "Clean Code: Writing Code for Humans",
+      "slug": "writing-clean-code-humans",
+      "authorId": 1,
+      "category": "Software Practices"
+    },
+    {
+      "id": 8,
+      "title": "Architecting Applications for the Real World",
+      "slug": "architecting-applications-dotnet",
+      "authorId": 1,
+      "category": "Software Architecture"
+    },
+    {
+      "id": 9,
+      "title": "Becoming an Outlier: Reprogramming the Developer Mind",
+      "slug": "career-reboot-for-developer-mind",
+      "authorId": 1,
+      "category": "Career"
+    },
+    {
+      "id": 10,
+      "title": "Web Component Fundamentals",
+      "slug": "web-components-shadow-dom",
+      "authorId": 1,
+      "category": "HTML5"
+    },
+    {
+      "id": 11,
+      "slug": "saaaa",
+      "title": "saaaa",
+      "authorId": 2,
+      "category": "sdfsdf",
+      "createdAt": 1676296294935
+    },
+    {
+      "id": 12,
+      "slug": "saaaa",
+      "title": "saaaa",
+      "authorId": 2,
+      "category": "sdfsdf",
+      "createdAt": 1676296300822
+    },
+    {
+      "id": 13,
+      "slug": "ddf",
+      "title": "ddf",
+      "authorId": 1,
+      "category": "fff",
+      "createdAt": 1676296696944
+    },
+    {
+      "id": 14,
+      "slug": "ddf",
+      "title": "ddf",
+      "authorId": 1,
+      "category": "fff",
+      "createdAt": 1676296738539
+    },
+    {
+      "id": 15,
+      "slug": "eeee",
+      "title": "eeee",
+      "authorId": 2,
+      "category": "dff",
+      "createdAt": 1676296747539
+    },
+    {
+      "id": 16,
+      "slug": "ggg",
+      "title": "ggg",
+      "authorId": 2,
+      "category": "gg",
+      "createdAt": 1676296808607
+    },
+    {
+      "id": 17,
+      "slug": "ggg",
+      "title": "ggg",
+      "authorId": 2,
+      "category": "gg",
+      "createdAt": 1676296839642
+    },
+    {
+      "id": 18,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "eee",
+      "createdAt": 1676296846090
+    },
+    {
+      "id": 19,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "eee",
+      "createdAt": 1676296876362
+    },
+    {
+      "id": 20,
+      "slug": "sdd",
+      "title": "sdd",
+      "authorId": 2,
+      "category": "ff",
+      "createdAt": 1676296882768
+    },
+    {
+      "id": 21,
+      "slug": "sdd",
+      "title": "sdd",
+      "authorId": 2,
+      "category": "ff",
+      "createdAt": 1676296883409
+    },
+    {
+      "id": 22,
+      "slug": "sdd",
+      "title": "sdd",
+      "authorId": 2,
+      "category": "ff",
+      "createdAt": 1676296892785
+    },
+    {
+      "id": 23,
+      "slug": "ff",
+      "title": "ff",
+      "authorId": 1,
+      "category": "ff",
+      "createdAt": 1676297097488
+    },
+    {
+      "id": 24,
+      "slug": "ff",
+      "title": "ff",
+      "authorId": 1,
+      "category": "ff",
+      "createdAt": 1676297098776
+    },
+    {
+      "id": 25,
+      "slug": "ff",
+      "title": "ff",
+      "authorId": 1,
+      "category": "ff",
+      "createdAt": 1676297128372
+    },
+    {
+      "id": 26,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "d",
+      "createdAt": 1676297136306
+    },
+    {
+      "id": 27,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "d",
+      "createdAt": 1676297136979
+    },
+    {
+      "id": 28,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "d",
+      "createdAt": 1676297149546
+    },
+    {
+      "id": 29,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "d",
+      "createdAt": 1676297150231
+    },
+    {
+      "id": 30,
+      "slug": "sd",
+      "title": "sd",
+      "authorId": 2,
+      "category": "d",
+      "createdAt": 1676297162340
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Cory House"
+    },
+    {
+      "id": 2,
+      "name": "Scott Allen"
+    },
+    {
+      "id": 3,
+      "name": "Dan Wahlin"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Prompt } from "react-router-dom";
+import { Prompt, Redirect } from "react-router-dom";
 import CourseForm from "./CourseForm";
 import * as courseApi from "../api/courseApi";
 
@@ -18,7 +18,7 @@ const ManageCoursePage = (props) => {
 
   function handleSubmit(event) {
     event.preventDefault();
-    courseApi.saveCourse(course);
+    courseApi.saveCourse(course).then(() => props.history.push("/courses"));
   }
 
   return (
