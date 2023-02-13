@@ -11,8 +11,8 @@ const ManageCoursePage = (props) => {
     category: "",
   });
 
-  function handleTitleChange(event) {
-    setCourse({ ...course, title: event.target.value });
+  function handleChange({ target }) {
+    setCourse({ ...course, [target.name]: target.value });
   }
 
   return (
@@ -20,7 +20,7 @@ const ManageCoursePage = (props) => {
       <h2>Manage Course</h2>
       {/* <Prompt when={true} message="Are you sure you want to leave?" />
       {props.match.params.slug} */}
-      <CourseForm course={course} onTitleChange={handleTitleChange} />
+      <CourseForm course={course} onChange={handleChange} />
     </>
   );
 };

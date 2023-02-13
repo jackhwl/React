@@ -31,3 +31,5 @@
 ## Section 9: Forms
 * Create Course Form
 * Controlled Components
+* Form State and Change Handles
+* Declaring State Change Handles
