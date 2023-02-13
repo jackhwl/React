@@ -22,3 +22,5 @@
 * PropTypes and Default Props
 ## Section 8: React Router
 * Demo: Declaring Routes
+* Demo: Links
+* Demo: NavLinks
