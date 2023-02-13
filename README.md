@@ -26,3 +26,4 @@
 * Demo: NavLinks
 * Demo: 404s
 * Demo: Redirects
+* Demo: URL Parameters
