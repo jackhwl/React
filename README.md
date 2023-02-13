@@ -27,3 +27,4 @@
 * Demo: 404s
 * Demo: Redirects
 * Demo: URL Parameters
+* Demo: Prompt on Transition
