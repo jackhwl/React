@@ -40,3 +40,6 @@
 * Notifications via a Third Party Component
 * Input Validation and PropTypes
 * Populate Form via the URL
+## Section 10: Flux
+## Section 11: Flux Demo
+* Dispatcher
