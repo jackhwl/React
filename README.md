@@ -48,3 +48,4 @@
 * Stores: Registration
 * Stores: Private Storage
 * Stores: Interactions
+* Stores: Initialization
