@@ -47,3 +47,4 @@
 * Stores: Change Listeners
 * Stores: Registration
 * Stores: Private Storage
+* Stores: Interactions
