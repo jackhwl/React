@@ -44,3 +44,5 @@
 ## Section 11: Flux Demo
 * Dispatcher
 * Actions
+* Stores: Change Listeners
+* Stores: Registration
