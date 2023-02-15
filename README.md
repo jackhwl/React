@@ -49,3 +49,4 @@
 * Stores: Private Storage
 * Stores: Interactions
 * Stores: Initialization
+* Update Course Flow with Flux
