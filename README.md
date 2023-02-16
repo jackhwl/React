@@ -56,3 +56,4 @@
 ## Section 3: Environment Build
 * OpenInitial Exercise Files
 * Create Initial App Structure
+* Start Webpack via npm Script
