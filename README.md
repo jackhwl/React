@@ -68,3 +68,4 @@
 * Configure App entry Point
 * Create App Layout
 * Create Header
+* Create 404 Page
