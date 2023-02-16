@@ -65,3 +65,4 @@
 ## Section 5: Initial App Structure
 * Create Home Page
 * Create About Page
+* Configure App entry Point
