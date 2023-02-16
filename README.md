@@ -53,4 +53,6 @@
 * Adding Store Listensers
 * Delete Course via Flux
 # Building Applications with React 17 and Redux
+## Section 3: Environment Build
 * OpenInitial Exercise Files
+* Create Initial App Structure
