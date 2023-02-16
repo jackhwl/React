@@ -13,6 +13,15 @@ export function saveCourse(course) {
   });
 }
 
+export function deleteCourse(id) {
+  return courseApi.deleteCourse(id).then(() => {
+    dispatcher.dispatch({
+      actionType: actionTypes.DELETE_COURSE,
+      id: id,
+    });
+  });
+}
+
 export function loadCourses() {
   return courseApi.getCourses().then((courses) => {
     dispatcher.dispatch({

@@ -51,3 +51,4 @@
 * Stores: Initialization
 * Update Course Flow with Flux
 * Adding Store Listensers
+* Delete Course via Flux
