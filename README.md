@@ -69,3 +69,4 @@
 * Create App Layout
 * Create Header
 * Create 404 Page
+* Create Course Page
