@@ -52,3 +52,5 @@
 * Update Course Flow with Flux
 * Adding Store Listensers
 * Delete Course via Flux
+# Building Applications with React 17 and Redux
+* OpenInitial Exercise Files
