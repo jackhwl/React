@@ -70,3 +70,8 @@
 * Create Header
 * Create 404 Page
 * Create Course Page
+## Section 6: Intro to Redux
+## Section 7: Actions, Stores, and Reducers
+## Section 8: Connecting React to Redux
+## Section 9: Redux Flow
+* Create Simple Add Course Form
