@@ -75,3 +75,4 @@
 ## Section 8: Connecting React to Redux
 ## Section 9: Redux Flow
 * Create Simple Add Course Form
+* Binding in Classes
