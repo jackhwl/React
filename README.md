@@ -83,3 +83,4 @@
 * Instantiate Store and Provider
 * Connect Container Component
 * Step through Redux Flow and Try Redux Devtools
+* mapDispatchToProps: Manual Mapping
