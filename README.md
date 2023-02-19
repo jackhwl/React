@@ -85,3 +85,5 @@
 * Step through Redux Flow and Try Redux Devtools
 * mapDispatchToProps: Manual Mapping
 * mapDispatchToProps: bindActionCreators
+* mapDispatchToProps: Object Form
+* Action Type Constants
