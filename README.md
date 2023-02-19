@@ -76,3 +76,4 @@
 ## Section 9: Redux Flow
 * Create Simple Add Course Form
 * Binding in Classes
+* Handle Submit
