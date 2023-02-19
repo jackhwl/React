@@ -80,3 +80,4 @@
 * Create Course Action
 * Create Course Reducer and Root Reducer
 * Create Store
+* Instantiate Store and Provider
