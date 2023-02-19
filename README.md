@@ -78,3 +78,4 @@
 * Binding in Classes
 * Handle Submit
 * Create Course Action
+* Create Course Reducer and Root Reducer
