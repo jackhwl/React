@@ -94,3 +94,4 @@
 * Remove Inline Manage Course Form
 * Add First Thunk
 * Handle Loading Courses in Reducer
+* Dispatch Action on Load
