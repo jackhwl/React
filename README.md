@@ -97,3 +97,4 @@
 * Dispatch Action on Load
 * Create ClurseList
 * Practice Reduc Flow - Load and Display Author Data
+* Centralize Initial Redux State
