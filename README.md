@@ -92,3 +92,5 @@
 * Middleware and Async Library Options
 * Thunk Introduction
 * Remove Inline Manage Course Form
+* Add First Thunk
+* Handle Loading Courses in Reducer
