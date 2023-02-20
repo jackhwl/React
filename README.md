@@ -89,3 +89,6 @@
 * Action Type Constants
 ## Section 10: Async in Redux
 * Mock API Setup
+* Middleware and Async Library Options
+* Thunk Introduction
+* Remove Inline Manage Course Form
