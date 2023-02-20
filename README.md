@@ -87,3 +87,5 @@
 * mapDispatchToProps: bindActionCreators
 * mapDispatchToProps: Object Form
 * Action Type Constants
+## Section 10: Async in Redux
+* Mock API Setup
