@@ -96,3 +96,4 @@
 * Handle Loading Courses in Reducer
 * Dispatch Action on Load
 * Create ClurseList
+* Practice Reduc Flow - Load and Display Author Data
