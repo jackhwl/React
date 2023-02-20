@@ -95,3 +95,4 @@
 * Add First Thunk
 * Handle Loading Courses in Reducer
 * Dispatch Action on Load
+* Create ClurseList
