@@ -98,3 +98,5 @@
 * Create ClurseList
 * Practice Reduc Flow - Load and Display Author Data
 * Centralize Initial Redux State
+## Section 11: Async Writes in Redux
+* Create Manage Course Page
