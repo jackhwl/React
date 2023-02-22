@@ -102,3 +102,4 @@
 * Create Manage Course Page
 * Implement Object Form of mapDispatchToProps
 * Configure Routing for ManageCoursePage
+* Convert Class Component to Function Component with Hooks
