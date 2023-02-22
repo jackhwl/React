@@ -101,3 +101,4 @@
 ## Section 11: Async Writes in Redux
 * Create Manage Course Page
 * Implement Object Form of mapDispatchToProps
+* Configure Routing for ManageCoursePage

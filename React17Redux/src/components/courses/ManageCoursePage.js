@@ -21,7 +21,6 @@ class ManageCoursePage extends React.Component {
     return (
       <>
         <h2>Manage Courses</h2>
-        <CourseList courses={this.props.courses} />
       </>
     );
   }
