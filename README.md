@@ -103,3 +103,5 @@
 * Implement Object Form of mapDispatchToProps
 * Configure Routing for ManageCoursePage
 * Convert Class Component to Function Component with Hooks
+* Create Course Form
+* Create Reusable TextInput and SelectInput Components
