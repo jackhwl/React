@@ -105,3 +105,4 @@
 * Convert Class Component to Function Component with Hooks
 * Create Course Form
 * Create Reusable TextInput and SelectInput Components
+* Call CourseForm on ManageCoursePage
