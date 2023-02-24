@@ -108,3 +108,4 @@
 * Call CourseForm on ManageCoursePage
 * Implement Centralized Change Handler
 * Add Save Course Thunk and Action Creators
+* Handle Creates and Updates in Reducer
