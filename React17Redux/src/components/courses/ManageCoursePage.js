@@ -26,19 +26,29 @@ function ManageCoursePage({
     }
   }, []);
 
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setCourse((prevCourse) => ({
+      ...prevCourse,
+      [name]: name === "authorId" ? parseInt(value, 10) : value,
+    }));
+  }
+
   return (
     <CourseForm
       course={course}
       errors={errors}
       authors={authors}
       onSave={onSave}
-      onChange={onChange}
+      onChange={handleChange}
     />
   );
 }
 
+
+
 const onSave = () => {};
-const onChange = () => {};
+
 ManageCoursePage.propTypes = {
   course: PropTypes.object.isRequired,
   courses: PropTypes.array.isRequired,

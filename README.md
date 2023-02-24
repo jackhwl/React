@@ -106,3 +106,4 @@
 * Create Course Form
 * Create Reusable TextInput and SelectInput Components
 * Call CourseForm on ManageCoursePage
+* Implement Centralized Change Handler
