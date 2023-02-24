@@ -111,3 +111,4 @@
 * Handle Creates and Updates in Reducer
 * Dispatch Create and Update
 * Redirect via React Router's Redirect Component
+* Redirect via React router's History
