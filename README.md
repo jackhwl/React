@@ -113,3 +113,5 @@
 * Redirect via React Router's Redirect Component
 * Redirect via React router's History
 * Populate Form via mapStateToProps
+## Section 12: Async Status and Error Handling
+* Create Spinner Component
