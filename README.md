@@ -118,3 +118,4 @@
 * Create API Status Actions
 * Call Begin API in Thunks
 * Add Spinner to Course Pages
+* Add Form Submission Loading Indicator
