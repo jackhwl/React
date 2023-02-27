@@ -116,3 +116,4 @@
 ## Section 12: Async Status and Error Handling
 * Create Spinner Component
 * Create API Status Actions
+* Call Begin API in Thunks
