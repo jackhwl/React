@@ -117,3 +117,4 @@
 * Create Spinner Component
 * Create API Status Actions
 * Call Begin API in Thunks
+* Add Spinner to Course Pages
