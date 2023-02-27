@@ -119,3 +119,4 @@
 * Call Begin API in Thunks
 * Add Spinner to Course Pages
 * Add Form Submission Loading Indicator
+* Handle Serve-side Validation and API Errors
