@@ -121,3 +121,4 @@
 * Add Form Submission Loading Indicator
 * Handle Serve-side Validation and API Errors
 * Implement Client-side Validation
+* Optimistic Deletes
