@@ -126,3 +126,4 @@
 * Configure Jest
 * Test React with Jest Snapshot Tests
 * Test React with Enyzme
+* Test React with React Testing Library
