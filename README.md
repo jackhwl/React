@@ -122,3 +122,5 @@
 * Handle Serve-side Validation and API Errors
 * Implement Client-side Validation
 * Optimistic Deletes
+## Section 13: Testing React
+* Configure Jest
