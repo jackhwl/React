@@ -125,3 +125,4 @@
 ## Section 13: Testing React
 * Configure Jest
 * Test React with Jest Snapshot Tests
+* Test React with Enyzme
