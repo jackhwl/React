@@ -130,3 +130,4 @@
 * Testing Connected React Coponents
 * Testing Action Creators
 * Testing Thunks
+* Testing Reducers
