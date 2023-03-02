@@ -131,3 +131,4 @@
 * Testing Action Creators
 * Testing Thunks
 * Testing Reducers
+* Testing the Store
