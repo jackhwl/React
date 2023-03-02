@@ -127,8 +127,11 @@
 * Test React with Jest Snapshot Tests
 * Test React with Enyzme
 * Test React with React Testing Library
+## Section 14: Testing Redux
 * Testing Connected React Coponents
 * Testing Action Creators
 * Testing Thunks
 * Testing Reducers
 * Testing the Store
+## Section 15: Production Builds
+* Set up Production Redux Store
