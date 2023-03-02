@@ -135,3 +135,4 @@
 * Testing the Store
 ## Section 15: Production Builds
 * Set up Production Redux Store
+* Set up Webpack
