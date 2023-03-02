@@ -129,3 +129,4 @@
 * Test React with React Testing Library
 * Testing Connected React Coponents
 * Testing Action Creators
+* Testing Thunks
