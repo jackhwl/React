@@ -1,3 +1,18 @@
 export default function Home() {
-  return <div>Hello From Pluralsight</div>;
+  function ListItems() {
+    const ints = [1, 2, 3];
+    return (
+      <>
+        {ints.map((i) => {
+          return <li key={i}>{i}</li>;
+        })}
+      </>
+    );
+  }
+
+  return (
+    <ul>
+      <ListItems />
+    </ul>
+  );
 }
