@@ -4,3 +4,5 @@
 * * npx create-next-app@latest myapp
 * Converting Our React Library Calls to Use JSX Syntax
 * Expanding JSX Syntax to Handle Returning a List and a Child Component
+* What F(G(X)) Means When Rendering React Component Trees
+* What Makes React Apps Reactive
