@@ -2,9 +2,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = (props) => {
+  const layoutVersion = "Layout Version 2.0";
   return (
-    <div className="container" data-theme={props.darkTheme ? "dark" : "light"}>
-      <Header toggleTheme={props.toggleTheme} darkTheme={props.darkTheme} />
+    <div
+      className="container"
+      data-theme={props.darkTheme ? "dark" : "light"}
+    >
+      <Header {...props} layoutVersion={layoutVersion} />
       {props.children}
       <br />
       <Footer />
