@@ -2,4 +2,6 @@
 ## Section 3: Exploring Our React Application
 * The Next.js Toolchain Basics
 ## Section 4: Global State Sharing and React Context
+* Three Ways to Propagate State Between Components
 * Passing State as props Between Components
+* Implementing React Context in Our Layout Component
