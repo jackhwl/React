@@ -6,3 +6,4 @@
 * Passing State as props Between Components
 * Implementing React Context in Our Layout Component
 * Move Read Context into a Dedicated Component
+* Promote Context Creation to Where It Is Used
