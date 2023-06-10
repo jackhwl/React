@@ -5,3 +5,4 @@
 * Three Ways to Propagate State Between Components
 * Passing State as props Between Components
 * Implementing React Context in Our Layout Component
+* Move Read Context into a Dedicated Component
