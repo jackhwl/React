@@ -6,3 +6,5 @@
 * cd globomantics12
 * npm i next@12
 * npm i eslint-config-next@12
+## Section 4: Styling Components
+* Styling Overview and global Styles
