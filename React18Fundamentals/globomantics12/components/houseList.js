@@ -19,7 +19,7 @@ const houseArray = [
 const HouseList = () => {
   const [houses, setHouses] = useState(houseArray);
   const [counter, setCounter] = useState(0);
-  setCounter((current) => counter + 1);
+  const buttonClicked = () => setCounter(counter + 1);
 
   const addHouse = () => {
     setHouses([
@@ -34,6 +34,7 @@ const HouseList = () => {
   };
   return (
     <>
+      {counter}
       <div className="row mb-2">
         <h5 className="themeFontColor text-center">
           Houses currently on the market
@@ -53,6 +54,10 @@ const HouseList = () => {
           ))}
         </tbody>
       </table>
+      <button className="btn btn-primary" onClick={buttonClicked}>
+        Counter Increase
+      </button>
+      &nbsp;
       <button className="btn btn-primary" onClick={addHouse}>
         Add
       </button>

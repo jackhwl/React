@@ -1,10 +1,10 @@
 import currencyFormatter from "../helpers/currencyFormatter";
 
-const HouseRow = ({ house: { address, country, price } }) => (
+const HouseRow = ({ house }) => (
   <tr>
-    <td>{address}</td>
-    <td>{country}</td>
-    <td>{currencyFormatter.format(price)}</td>
+    <td>{house.address}</td>
+    <td>{house.country}</td>
+    <td>{currencyFormatter.format(house.price)}</td>
   </tr>
 );
 

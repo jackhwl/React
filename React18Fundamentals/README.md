@@ -18,3 +18,4 @@
 * Extracting Components
 * State
 * Setting State
+* Reconciliation
