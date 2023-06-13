@@ -1,3 +1,4 @@
+import { useState } from "react";
 import HouseRow from "./houseRow";
 
 const houseArray = [
@@ -16,6 +17,7 @@ const houseArray = [
 ];
 
 const HouseList = () => {
+  const [houses, setHouses] = useState(houseArray);
   return (
     <>
       <div className="row mb-2">
@@ -32,7 +34,7 @@ const HouseList = () => {
           </tr>
         </thead>
         <tbody>
-          {houseArray.map((h) => (
+          {houses.map((h) => (
             <HouseRow key={h.id} house={h} />
           ))}
         </tbody>
