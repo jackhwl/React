@@ -13,3 +13,4 @@
 * The Style Attribute
 ## Section 5: Hooks, Props, and State
 * Props
+* The Children Prop
