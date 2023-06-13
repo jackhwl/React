@@ -19,3 +19,5 @@
 * State
 * Setting State
 * Reconciliation
+## Section 6: Component Rendering and Side Effects
+* Pure Functions and Memorizing Components
