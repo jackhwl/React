@@ -11,3 +11,5 @@
 * Applying CSS Class to Components
 * CSS Modules and Expressions
 * The Style Attribute
+## Section 5: Hooks, Props, and State
+* Props
