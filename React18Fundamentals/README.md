@@ -9,3 +9,4 @@
 ## Section 4: Styling Components
 * Styling Overview and global Styles
 * Applying CSS Class to Components
+* CSS Modules and Expressions
