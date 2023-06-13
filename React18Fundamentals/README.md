@@ -8,3 +8,4 @@
 * npm i eslint-config-next@12
 ## Section 4: Styling Components
 * Styling Overview and global Styles
+* Applying CSS Class to Components
