@@ -14,3 +14,4 @@
 ## Section 5: Hooks, Props, and State
 * Props
 * The Children Prop
+* Fragements and Mapping Data to JSX
