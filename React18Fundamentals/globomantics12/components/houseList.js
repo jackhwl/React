@@ -18,6 +18,20 @@ const houseArray = [
 
 const HouseList = () => {
   const [houses, setHouses] = useState(houseArray);
+  const [counter, setCounter] = useState(0);
+  setCounter((current) => counter + 1);
+
+  const addHouse = () => {
+    setHouses([
+      ...houses,
+      {
+        id: 3,
+        address: "32 Valley Way, New York",
+        country: "USA",
+        price: 1000000,
+      },
+    ]);
+  };
   return (
     <>
       <div className="row mb-2">
@@ -39,6 +53,9 @@ const HouseList = () => {
           ))}
         </tbody>
       </table>
+      <button className="btn btn-primary" onClick={addHouse}>
+        Add
+      </button>
     </>
   );
 };
