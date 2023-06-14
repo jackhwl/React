@@ -21,3 +21,5 @@
 * Reconciliation
 ## Section 6: Component Rendering and Side Effects
 * Pure Functions and Memorizing Components
+* Side Effects and the Effect Hook
+* Effects and Re-rendering
