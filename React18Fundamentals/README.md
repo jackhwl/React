@@ -23,3 +23,5 @@
 * Pure Functions and Memorizing Components
 * Side Effects and the Effect Hook
 * Effects and Re-rendering
+## Section 7: Conditional Rendering and Shared State
+* Conditional Rendering
