@@ -25,3 +25,4 @@
 * Effects and Re-rendering
 ## Section 7: Conditional Rendering and Shared State
 * Conditional Rendering
+* Conditionally Rendering Components
