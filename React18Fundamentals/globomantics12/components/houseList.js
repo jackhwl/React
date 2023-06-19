@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import HouseRow, { HouseRowMem } from "./houseRow";
 
-const HouseList = () => {
+const HouseList = ({ selectHouse }) => {
   const [houses, setHouses] = useState([]);
   const [counter, setCounter] = useState(0);
   const buttonClicked = () => setCounter(counter + 1);
@@ -44,7 +44,7 @@ const HouseList = () => {
         </thead>
         <tbody>
           {houses.map((h) => (
-            <HouseRowMem key={h.id} house={h} />
+            <HouseRowMem key={h.id} house={h} selectHouse={selectHouse} />
           ))}
         </tbody>
       </table>
