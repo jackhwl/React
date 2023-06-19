@@ -1,11 +1,16 @@
 import { useState } from "react";
 import useHouses from "../hooks/useHouses";
 import HouseRow, { HouseRowMem } from "./houseRow";
+import LoadingIndicator from "./loadingIndicator";
+import loadingStatus from "../helpers/loadingStatus";
 
 const HouseList = ({ selectHouse }) => {
-  const { houses, setHouses } = useHouses();
+  const { houses, setHouses, loadingState } = useHouses();
   const [counter, setCounter] = useState(0);
   const buttonClicked = () => setCounter(counter + 1);
+
+  if (loadingState !== loadingStatus.loaded)
+    return <LoadingIndicator loadingState={loadingState} />;
 
   const addHouse = () => {
     setHouses([
