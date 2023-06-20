@@ -18,7 +18,7 @@ const App = () => {
       {selectedHouse ? (
         <House house={selectedHouse} />
       ) : (
-        <HouseList selectHouse={setSelectedHouse} />
+        <HouseList selectHouse={setSelectedHouseWrapper} />
       )}
     </>
   );
