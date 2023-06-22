@@ -32,3 +32,5 @@
 * Adding Additional State to a Custom Hook
 * Increasing the Reusability of a Custom Hook
 * Function Wrappers and the Callback Hook
+## Section 8: Context and Navigation
+* Declaring Context

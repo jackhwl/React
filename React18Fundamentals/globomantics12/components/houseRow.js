@@ -1,7 +1,7 @@
 import React from "react";
 import currencyFormatter from "../helpers/currencyFormatter";
 
-const HouseRow = ({ house, selectHouse }) => (
+const HouseRow = ({ house }) => (
   <tr onClick={() => selectHouse(house)}>
     <td>{house.address}</td>
     <td>{house.country}</td>
