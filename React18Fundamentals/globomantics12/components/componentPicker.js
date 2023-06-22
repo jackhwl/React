@@ -14,3 +14,5 @@ const ComponentPicker = ({ currentNavLocation }) => {
       );
   }
 };
+
+export default ComponentPicker;

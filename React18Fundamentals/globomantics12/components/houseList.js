@@ -41,7 +41,7 @@ const HouseList = () => {
         </thead>
         <tbody>
           {houses.map((h) => (
-            <HouseRowMem key={h.id} house={h} selectHouse={selectHouse} />
+            <HouseRowMem key={h.id} house={h} />
           ))}
         </tbody>
       </table>

@@ -35,3 +35,5 @@
 ## Section 8: Context and Navigation
 * Declaring Context
 * Providing Context
+* Consuming Context
+* Navigation Libraries
