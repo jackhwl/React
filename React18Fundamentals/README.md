@@ -34,3 +34,4 @@
 * Function Wrappers and the Callback Hook
 ## Section 8: Context and Navigation
 * Declaring Context
+* Providing Context
