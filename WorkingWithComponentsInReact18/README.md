@@ -1,6 +1,7 @@
 # Working with Components in React 18
 ## Section 3: Exploring Our React Application
 * The Next.js Toolchain Basics
+* Understanding the Todo Apps Data Layer
 ## Section 4: Global State Sharing and React Context
 * Three Ways to Propagate State Between Components
 * Passing State as props Between Components
