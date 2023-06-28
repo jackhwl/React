@@ -12,3 +12,6 @@
 * Promote Context Creation to Where It Is Used
 * * App => Layout => InnerLayout, make sure ThemeProvider run before InnerLayout, so the ThemeContext has value before entering InnerLayout
 * Code a Higher Order Component (HOC)
+* * HOC's are a simple programming pattern used to inject props into an existing component
+* * api\demo2.js demonstrate App component theme-aware by enhancing it with our own withTheme HOC.
+* Share Component State with HOCs

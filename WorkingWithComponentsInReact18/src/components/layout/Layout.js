@@ -4,7 +4,7 @@ import { useContext } from "react";
 import {
   ThemeContext,
   ThemeProvider,
-} from "../../contexts/Themecontext";
+} from "../../contexts/ThemeContext";
 
 const Inner = ({ children }) => {
   const layoutVersion = "Layout Version 2.0";
