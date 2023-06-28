@@ -7,6 +7,7 @@
 * Passing State as props Between Components
 * * pass darkTheme and toggleTheme through props
 * Implementing React Context in Our Layout Component
+* * React Context main benefit is it allows for sharing between components without passing props, React Context acts like global data you can share from any level of your component hierarchy, Many React Context can exist in an app, and can overlap each other in a component hierarchy, React Context helps reduce complexity by avoiding passing props between components; Drawback: promotes information hiding, Unexpected component re-renders
 * Move Read Context into a Dedicated Component
 * Promote Context Creation to Where It Is Used
 * Code a Higher Order Component (HOC)
