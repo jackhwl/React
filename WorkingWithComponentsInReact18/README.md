@@ -5,6 +5,7 @@
 ## Section 4: Global State Sharing and React Context
 * Three Ways to Propagate State Between Components
 * Passing State as props Between Components
+* * pass darkTheme and toggleTheme through props
 * Implementing React Context in Our Layout Component
 * Move Read Context into a Dedicated Component
 * Promote Context Creation to Where It Is Used
