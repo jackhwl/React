@@ -17,3 +17,4 @@
 * Share Component State with HOCs
 ## Section 5: Handling Errors and Debugging Components
 * The useDebugValue Hook Basics
+* Integrating useDebugValue into Custom Theme Hook
