@@ -15,3 +15,5 @@
 * * HOC's are a simple programming pattern used to inject props into an existing component
 * * api\demo2.js demonstrate App component theme-aware by enhancing it with our own withTheme HOC.
 * Share Component State with HOCs
+## Section 5: Handling Errors and Debugging Components
+* The useDebugValue Hook Basics
