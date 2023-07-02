@@ -20,3 +20,4 @@
 * Integrating useDebugValue into Custom Theme Hook
 * An Advanced Use of useDebugValue
 * Working with the React Dev Tools Profile Tab
+* Inspecting Component Renders with React Dev Tools
