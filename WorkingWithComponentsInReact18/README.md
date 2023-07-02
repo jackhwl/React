@@ -21,3 +21,4 @@
 * An Advanced Use of useDebugValue
 * Working with the React Dev Tools Profile Tab
 * Inspecting Component Renders with React Dev Tools
+* Adding Error Boundaries for Catching Errors in Production
