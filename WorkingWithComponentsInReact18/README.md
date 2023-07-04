@@ -25,3 +25,4 @@
 * Improving Our React Boundary Error UI
 ## Section 6: Improving Component UI Performance
 * React.memo Can Solve over Rendering Problems
+* Implementing React.memo to Solve Our Re-rendering Problem
