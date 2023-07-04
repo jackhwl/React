@@ -23,3 +23,5 @@
 * Inspecting Component Renders with React Dev Tools
 * Adding Error Boundaries for Catching Errors in Production
 * Improving Our React Boundary Error UI
+## Section 6: Improving Component UI Performance
+* React.memo Can Solve over Rendering Problems
