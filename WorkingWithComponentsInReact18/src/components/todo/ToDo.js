@@ -1,5 +1,6 @@
 import ErrorBoundary from "../common/ErrorBoundary";
 import ToDoItemText from "./ToDoItemText";
+import { memo } from "react";
 
 const Inner = ({
   todoItem,
@@ -89,4 +90,11 @@ const ToDo = (props) => {
     </ErrorBoundary>
   );
 };
-export default ToDo;
+export default memo(ToDo, (prevProps, nextProps) => {
+  return !(
+    prevProps.todoItem.completed != nextProps.todoItem.completed ||
+    prevProps.todoItem.important != nextProps.todoItem.important ||
+    prevProps.idUpdating === prevProps.todoItem.id ||
+    nextProps.idUpdating === nextProps.todoItem.id
+  );
+});
