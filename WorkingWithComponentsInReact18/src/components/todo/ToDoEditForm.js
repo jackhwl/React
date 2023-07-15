@@ -20,9 +20,9 @@ const ToDoEditForm = ({
             }}
             placeholder="Enter To-do..."
             className="form-control"
-            id="addTodo"
+            id="editTodo"
           />
-          <label htmlFor="addTodoCompleted">Enter To-do...</label>
+          <label htmlFor="editTodo">Enter To-do...</label>
         </div>
 
         <button

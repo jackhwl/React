@@ -17,7 +17,7 @@ const ToDoAddForm = ({ add, visible }) => {
             className="form-control"
             id="addTodo"
           />
-          <label htmlFor="addTodoCompleted">Enter To-do...</label>
+          <label htmlFor="addTodo">Enter To-do...</label>
         </div>
         <button
           disabled={todoText.length === 0}

@@ -90,11 +90,12 @@ const ToDo = (props) => {
     </ErrorBoundary>
   );
 };
-export default memo(ToDo, (prevProps, nextProps) => {
-  return !(
-    prevProps.todoItem.completed != nextProps.todoItem.completed ||
-    prevProps.todoItem.important != nextProps.todoItem.important ||
-    prevProps.idUpdating === prevProps.todoItem.id ||
-    nextProps.idUpdating === nextProps.todoItem.id
-  );
-});
+export default ToDo
+//  memo(ToDo, (prevProps, nextProps) => {
+//   return !(
+//     prevProps.todoItem.completed != nextProps.todoItem.completed ||
+//     prevProps.todoItem.important != nextProps.todoItem.important ||
+//     prevProps.idUpdating === prevProps.todoItem.id ||
+//     nextProps.idUpdating === nextProps.todoItem.id
+//   );
+// });
