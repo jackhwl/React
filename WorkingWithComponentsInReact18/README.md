@@ -27,3 +27,4 @@
 * React.memo Can Solve over Rendering Problems
 * Implementing React.memo to Solve Our Re-rendering Problem
 * Advanced Usage of React.memo with a Custom Function
+* Deferring UI Updates with useDeferredValue
