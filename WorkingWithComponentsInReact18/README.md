@@ -28,3 +28,4 @@
 * Implementing React.memo to Solve Our Re-rendering Problem
 * Advanced Usage of React.memo with a Custom Function
 * Deferring UI Updates with useDeferredValue
+* Implement useDeferredValue in the Todo App
