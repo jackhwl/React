@@ -1,4 +1,4 @@
-import { useDeferredValue, useState } from "react";
+import { useTransition, useState } from "react";
 import ToDoListWithToolbar from "./components/todo/ToDoListWithToolbar";
 import { TodosDataProvider } from "./contexts/ToDosDataContext";
 import ToDoManager from "./components/todo/ToDoManager";
@@ -8,7 +8,7 @@ const App = () => {
   const [displayStatus, setDisplayStatus] = useState("all"); // all, pending, completed
   const [important, setImportant] = useState(false);
   const [searchText, setSearchText] = useState("");
-  const searchTextDeferred = useDeferredValue(searchText);
+  const [isPending, startTransition] = useTransition();
 
   return (
     <TodosDataProvider>
@@ -20,11 +20,13 @@ const App = () => {
           setImportant={setImportant}
           searchText={searchText}
           setSearchText={setSearchText}
+          startTransition={startTransition}
+          isPending={isPending}
         >
           <ToDoManager
             displayStatus={displayStatus}
             important={important}
-            searchText={searchTextDeferred}
+            searchText={searchText}
           />
         </ToDoListWithToolbar>
       </Layout>
