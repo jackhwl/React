@@ -30,3 +30,4 @@
 * Deferring UI Updates with useDeferredValue
 * Implement useDeferredValue in the Todo App
 * Verifying setTransition is Working as Expected
+## Section 7: Introducing Server Components
