@@ -9,3 +9,5 @@
 # React 18: The Big Picture
 
 # React 18 Fundamentals
+
+# Server Component Fundamentals in React 18
