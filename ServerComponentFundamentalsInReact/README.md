@@ -14,3 +14,6 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 √ Would you like to customize the default import alias? ... No / Yes
 ```
 * use locals fix first time load time display format issue: p.m. vs PM
+
+## Section 3: Learning More Server Component Scenarios
+* Client Components Calling Client Components

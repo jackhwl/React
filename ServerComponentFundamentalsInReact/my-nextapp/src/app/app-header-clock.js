@@ -1,5 +1,7 @@
 "use client";
 
+import AppShowSun from "./app-show-sun";
+
 import { useEffect, useState } from "react";
 
 export default function AppHeaderClock({ isoDateString }) {
@@ -16,5 +18,12 @@ export default function AppHeaderClock({ isoDateString }) {
     };
   }, []);
 
-  return <div>{new Date(currentDate).toLocaleTimeString("en-US")}</div>;
+  return (
+    <div>
+      {new Date(currentDate).toLocaleTimeString("en-US")}
+      <div>
+        <AppShowSun isoDateString={currentDate} />
+      </div>
+    </div>
+  );
 }
