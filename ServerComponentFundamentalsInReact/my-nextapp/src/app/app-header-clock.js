@@ -1,12 +1,13 @@
 "use client";
 
+import { useCounter } from "rooks";
 import AppShowSun from "./app-show-sun";
 
 import { useEffect, useState } from "react";
 
 export default function AppHeaderClock({ isoDateString }) {
-  console.log(isoDateString);
   const [currentDate, setCurrentDate] = useState(new Date(isoDateString));
+  const { value, incrementBy } = useCounter(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,6 +24,12 @@ export default function AppHeaderClock({ isoDateString }) {
       {new Date(currentDate).toLocaleTimeString("en-US")}
       <div>
         <AppShowSun isoDateString={currentDate} />
+        <button
+          className="btn btn-secondary m-2"
+          onClick={() => incrementBy(5)}
+        >
+          increment {value}
+        </button>
       </div>
     </div>
   );
