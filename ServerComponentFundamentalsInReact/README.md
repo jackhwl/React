@@ -13,3 +13,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 √ Would you like to use App Router? (recommended) ... No / Yes
 √ Would you like to customize the default import alias? ... No / Yes
 ```
+* use locals fix first time load time display format issue: p.m. vs PM
