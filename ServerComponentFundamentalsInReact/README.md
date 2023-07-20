@@ -20,3 +20,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 * Calling Third-party APIs and use-client
 * Server Components as Children to Client Components
 * Adding a Custom Theme Provider as a Client Component
+* Adding a UI to Toggle the Custom Theme
