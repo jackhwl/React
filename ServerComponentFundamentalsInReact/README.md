@@ -21,3 +21,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 * Server Components as Children to Client Components
 * Adding a Custom Theme Provider as a Client Component
 * Adding a UI to Toggle the Custom Theme
+* Moving Client Components to the Leaf Nodes
