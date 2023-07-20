@@ -18,3 +18,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 ## Section 3: Learning More Server Component Scenarios
 * Client Components Calling Client Components
 * Calling Third-party APIs and use-client
+* Server Components as Children to Client Components

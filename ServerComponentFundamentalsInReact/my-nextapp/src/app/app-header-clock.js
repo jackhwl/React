@@ -2,10 +2,11 @@
 
 import { useCounter } from "rooks";
 import AppShowSun from "./app-show-sun";
+// import AppServerComponent from "./app-server-component";
 
 import { useEffect, useState } from "react";
 
-export default function AppHeaderClock({ isoDateString }) {
+export default function AppHeaderClock({ isoDateString, children }) {
   const [currentDate, setCurrentDate] = useState(new Date(isoDateString));
   const { value, incrementBy } = useCounter(0);
 
@@ -23,6 +24,8 @@ export default function AppHeaderClock({ isoDateString }) {
     <div>
       {new Date(currentDate).toLocaleTimeString("en-US")}
       <div>
+        {/* <AppServerComponent /> FAIL */}
+        {children}
         <AppShowSun isoDateString={currentDate} />
         <button
           className="btn btn-secondary m-2"
