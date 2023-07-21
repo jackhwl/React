@@ -22,3 +22,6 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 * Adding a Custom Theme Provider as a Client Component
 * Adding a UI to Toggle the Custom Theme
 * Moving Client Components to the Leaf Nodes
+
+## Section 4: Using Async Data in Server Components
+* sample init
