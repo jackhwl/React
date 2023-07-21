@@ -1,11 +1,24 @@
+import { YouTubeData } from "@/lib/ts-interfaces";
 import "server-only";
-import youtubeDataAll from "../../../data/youtubedata.json";
+// import youtubeDataAll from "../../../data/youtubedata.json";
 
-export default function SessionVideo({ id }: { id: string }) {
+const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function getSessionsVideo(id: string) {
+  await delay(2000);
+  const res = await fetch(`http://localhost:3000/api/youtubedata/${id}`);
+  if (!res.ok) {
+    throw new Error("failed to fetch data");
+  }
+  const data = await res.json();
+  return data;
+}
+
+export default async function SessionVideo({ id }: { id: string }) {
   if (!id || id.length === 0) {
     return null;
   }
-  const youtubeData = youtubeDataAll.data.youTubeData.find(rec => rec.id === id);
+  const youtubeData: YouTubeData = await getSessionsVideo(id);
   return (
     <div className="card">
       <a target="_blank" href={`https://www.youtube.com/watch?v=${id}`}>
