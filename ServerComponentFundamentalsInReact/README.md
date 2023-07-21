@@ -25,3 +25,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 
 ## Section 4: Using Async Data in Server Components
 * sample init
+* Add ASync REST Call to a Server Component
