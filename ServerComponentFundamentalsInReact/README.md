@@ -30,3 +30,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 
 ## Section 5: Adding Suspense Bounderies to Server Components
 * Adding Suspense to Our Comference App
+* Adding Nest Suspense Elements to Our Conference App
