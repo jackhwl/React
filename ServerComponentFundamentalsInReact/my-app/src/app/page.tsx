@@ -6,12 +6,18 @@ import AppHeader from "./common/app-header";
 import AppFooter from "./common/app-footer";
 import SessionsList from "@/src/app/sessions/sessions-list";
 
+import SessionsQuery from "@/src/app/sessions/sessions-query";
+import QueryProvider from "@/src/app/contexts/query-provider";
+
 export default function MainApp() {
   return (
     <div className="container py-1">
       <AppHeader />
       <Suspense fallback={<SessionsListLoading />}>
-        <SessionsList />
+        <QueryProvider>
+          <SessionsQuery />
+          <SessionsList />
+        </QueryProvider>
       </Suspense>
       <AppFooter />
     </div>
