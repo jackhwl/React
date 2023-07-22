@@ -32,3 +32,4 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 * Adding Suspense to Our Comference App
 * Adding Nest Suspense Elements to Our Conference App
 * Implementing Search with Client Components and React Context
+* Filtering Showing Server Components with Client Components
