@@ -33,3 +33,6 @@ PS C:\Jack\Projects\React\ServerComponentFundamentalsInReact> npx create-next-ap
 * Adding Nest Suspense Elements to Our Conference App
 * Implementing Search with Client Components and React Context
 * Filtering Showing Server Components with Client Components
+
+## Section 6: Next.js Toolchain, Progressive Rendering and Error Handling
+https://egghead.io/courses/build-a-twitter-clone-with-the-next-js-app-router-and-supabase-19bebadb?utm_campaign=build%20a%20twitter%20clone%20-%20supabase%20next.js%2013&utm_content=build%20a%20twitter%20clone%20-%20supabase%20next.js%2013&utm_medium=email_action&utm_source=customer.io
