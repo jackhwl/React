@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export default function AppHeaderClock({ isoDateString }) {
+export default function AppHeaderClock({ isoDateString, children }) {
     const [currentDate, setCurrentDate] = useState(new Date(isoDateString))
 
     useEffect(() => {
@@ -15,5 +15,10 @@ export default function AppHeaderClock({ isoDateString }) {
         }
     },[])
 
-    return <div>{new Date(currentDate).toLocaleTimeString()}</div>;
+    return (
+        <div>
+            {new Date(currentDate).toLocaleTimeString()}
+            <div>{children}</div>
+        </div>
+    )
   }
