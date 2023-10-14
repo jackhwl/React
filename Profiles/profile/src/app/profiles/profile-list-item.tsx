@@ -1,6 +1,6 @@
 import "server-only"
 import { CertificateData } from "@/lib/ts-interfaces"
-import CertificateImg from "@/src/app/certificate/certificate-img"
+import CertificateImg from "@/src/app/profiles/certificate-img"
 
 export default function CertificateListItem({ rec }: { rec: CertificateData }) {
     return (

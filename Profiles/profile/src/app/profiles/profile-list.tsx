@@ -8,7 +8,7 @@ export default function ProfileList() {
     return (
         <div className="container">
             <div className="row">
-                { profileData.data.certificates?.map(function (rec: CertificateData) {
+                { profileData.data.sessions?.map(function (rec: CertificateData) {
                     return <ProfileListItem key={rec.id} rec={rec} />
                 })}
             </div>
