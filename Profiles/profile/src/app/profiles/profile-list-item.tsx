@@ -16,7 +16,7 @@ export default function CertificateListItem({ rec }: { rec: CertificateData }) {
               </div>
             </div>
             <div className="col-5 align-middle mt-2 ">
-              <CertificateImg id={rec.certificateImg?.[0]?.url ?? ""} />
+              <CertificateImg id={rec.sessionVideos?.[0]?.youTubeUrl ?? ""} />
             </div>
           </div>
         </div>

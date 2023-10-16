@@ -1,5 +1,5 @@
 import "server-only";
-//import imgDataAll from "../../../data/imgdata.json";
+import imgDataAll from "../../../data/imgdata.json";
 
 export default function CertificateImg({ id }: { id: string }) {
   if (!id || id.length === 0) {
