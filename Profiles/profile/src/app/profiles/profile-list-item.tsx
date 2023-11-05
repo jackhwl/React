@@ -1,4 +1,5 @@
 import "server-only"
+import { Suspense } from "react"
 import { CertificateData } from "@/lib/ts-interfaces"
 import CertificateImg from "@/src/app/profiles/certificate-img"
 
@@ -16,10 +17,24 @@ export default function CertificateListItem({ rec }: { rec: CertificateData }) {
               </div>
             </div>
             <div className="col-5 align-middle mt-2 ">
+              <Suspense fallback={<SessionVideoLoading />}>
               <CertificateImg id={rec.sessionVideos?.[0]?.youTubeUrl ?? ""} />
+              </Suspense>
             </div>
           </div>
         </div>
       </div>
     )
+}
+
+function SessionVideoLoading() {
+  return (
+    <div className="card m-1">
+      <a target="#">
+        <div className="spinner" style={{ width: "105px", height: "105px" }}>
+
+        </div>
+      </a>
+    </div>
+  )
 }
