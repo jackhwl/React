@@ -4,12 +4,18 @@ import AppHeader from './common/app-header'
 import AppFooter from './common/app-footer'
 import ProfileList from './profiles/profile-list'
 
+import ProfileQuery from '@/src/app/profiles/profile-query'
+import QueryProvider from '@/src/app/contexts/query-provider'
+
 export default function MainApp() {
   return (
     <div className="container py-1">
       <AppHeader />
       <Suspense fallback={<ProfileListLoading />}>
-        <ProfileList />
+        <QueryProvider>
+          <ProfileQuery />
+          <ProfileList />
+        </QueryProvider>
       </Suspense>
       <AppFooter />
     </div>
