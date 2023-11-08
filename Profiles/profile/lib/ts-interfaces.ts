@@ -8,6 +8,7 @@ export interface ProfileData {
   
   export interface CertificateData {
     id: string;
+    title: string;
     snippet: {
       thumbnails: {
         small: {

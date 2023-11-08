@@ -10,13 +10,13 @@ export const QueryContext = createContext<{
         query: '', 
         setQuery: () => {} 
     })
-
+const QueryContextProvider = QueryContext.Provider
 export default function QueryProvider({ children }: { children: ReactNode }) {
     const [query, setQuery] = useState<string>('')
 
     return (
-        <QueryContext.Provider value={{ query, setQuery }}>
+        <QueryContextProvider value={{ query, setQuery }}>
             {children}
-        </QueryContext.Provider>
+        </QueryContextProvider>
     )
 }

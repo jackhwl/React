@@ -5,7 +5,6 @@ import CertificateImg from "@/src/app/profiles/certificate-img"
 
 export default function CertificateListItem({ rec }: { rec: CertificateData }) {
     return (
-        <div className="col-lg-3 col-md-6 col-sm-12 d-flex align-items-stretch">
         <div className="card m-1">
           <div className="row g-0">
             <div className="col-7">
@@ -23,7 +22,6 @@ export default function CertificateListItem({ rec }: { rec: CertificateData }) {
             </div>
           </div>
         </div>
-      </div>
     )
 }
 
