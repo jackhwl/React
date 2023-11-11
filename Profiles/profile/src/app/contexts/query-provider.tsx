@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { Dispatch, ReactNode, SetStateAction, createContext, useState,  } from "react"
+import { Dispatch, ReactNode, SetStateAction, createContext, useContext, useState,  } from "react"
 
 export const QueryContext = createContext<{ 
     query: string; 
@@ -10,13 +10,17 @@ export const QueryContext = createContext<{
         query: '', 
         setQuery: () => {} 
     })
-const QueryContextProvider = QueryContext.Provider
+
+export function useQuery1() {
+    return useContext(QueryContext)
+}
+
 export default function QueryProvider({ children }: { children: ReactNode }) {
     const [query, setQuery] = useState<string>('')
 
     return (
-        <QueryContextProvider value={{ query, setQuery }}>
+        <QueryContext.Provider value={{ query, setQuery }}>
             {children}
-        </QueryContextProvider>
+        </QueryContext.Provider>
     )
 }
