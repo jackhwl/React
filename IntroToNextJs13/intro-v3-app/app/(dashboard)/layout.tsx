@@ -1,5 +1,5 @@
 const DashboardLayout = ({children}) => {
-    return (<div>dashboard {children}</div>)
+    return (<div><h1>dashboard</h1> <div>{children}</div></div>)
 }
 
 export default DashboardLayout;

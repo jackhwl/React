@@ -8,3 +8,4 @@
 ## Project Setup & Routing
   - Layouts & Templates
   - Navigation
+  - Styling Overview
