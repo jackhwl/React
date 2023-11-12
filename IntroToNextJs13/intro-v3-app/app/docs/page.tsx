@@ -1,5 +1,6 @@
+import styles from './style.module.css'
 const DocsPage = () => {
-    return <div>docs</div>
+    return <div className={`${styles.title} ${styles.another}`}>docs</div>
 }
 
 export default DocsPage

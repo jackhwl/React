@@ -9,3 +9,4 @@
   - Layouts & Templates
   - Navigation
   - Styling Overview
+  - CSS Modules
