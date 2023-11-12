@@ -7,3 +7,4 @@
   - Dynamic Routing
 ## Project Setup & Routing
   - Layouts & Templates
+  - Navigation
