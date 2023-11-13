@@ -22,3 +22,4 @@
   - Fetching Data with Prisma
   - Form Handling with Server
     npx prisma studio
+  - Loading & Error
