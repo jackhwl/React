@@ -20,3 +20,5 @@
     npx prisma init --datasource-provider sqlite
     npx prisma migrate dev --name init
   - Fetching Data with Prisma
+  - Form Handling with Server
+    npx prisma studio
