@@ -1,4 +1,4 @@
-import NewTodoForm from "./components/NewTodoForm"
+import NewTodoForm from "@/app/components/NewTodoForm"
 
 const getData = async () => {
   await new Promise((res) => setTimeout(() => res(0), 2000))

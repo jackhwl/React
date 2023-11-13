@@ -19,3 +19,4 @@
     npm i @prisma/client@latest
     npx prisma init --datasource-provider sqlite
     npx prisma migrate dev --name init
+  - Fetching Data with Prisma
