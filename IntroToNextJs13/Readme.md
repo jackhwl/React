@@ -13,3 +13,4 @@
   - CSS in JS
 ## Data Handling & Deployment
   - Server Component
+  - Client Component
