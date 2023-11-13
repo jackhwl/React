@@ -14,3 +14,8 @@
 ## Data Handling & Deployment
   - Server Component
   - Client Component
+  - Prisma
+    npm i prisma -D
+    npm i @prisma/client@latest
+    npx prisma init --datasource-provider sqlite
+    npx prisma migrate dev --name init
