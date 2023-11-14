@@ -3,7 +3,7 @@ import db from '@/utils/db'
 import { get } from 'http'
 
 const getData = async () => {
-    await new Promise((resolve, reject) => setTimeout(() => reject(), 2000))
+    await new Promise((resolve, reject) => setTimeout(() => resolve(), 2000))
     const todos = await db.todo.findMany({})
     return todos
 
