@@ -23,3 +23,6 @@
   - Form Handling with Server
     npx prisma studio
   - Loading & Error
+  - Server Action Q&A
+  - Server Action Mutation
+  - API Routes
