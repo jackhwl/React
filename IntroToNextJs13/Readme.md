@@ -27,3 +27,4 @@
   - Server Action Mutation
   - API Routes
   - API Q&A
+  - Middleware
