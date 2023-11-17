@@ -28,3 +28,5 @@
   - API Routes
   - API Q&A
   - Middleware
+  - Deploying
+  - Building for Deployment to Vercel

@@ -1,5 +1,5 @@
 
-const Home = async () => {
+const Home = () => {
   return <div>home</div>
 }
 
