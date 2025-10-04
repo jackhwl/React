@@ -11,3 +11,5 @@
 # React 18 Fundamentals
 
 # Server Component Fundamentals in React 18
+
+# React - The Complete Guide 2025 (incl. Next.js, Redux)
