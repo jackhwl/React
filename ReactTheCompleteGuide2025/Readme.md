@@ -10,3 +10,4 @@
   - import & export
   - Next-Gen Javascript Summary
 ## React Essentials - Components, JSX, Props, State & More
+  - It's all about components
