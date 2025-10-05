@@ -4,5 +4,7 @@
     - https://github.com/academind/react-complete-guide-course-resources
   - Creating React Projects
     - In browser: https://codesandbox.io/p/sandbox/react-new
-    - Vite: npm create vite@latest react-project
+    - Vite: pnpm create vite | npm create vite@latest react-project
     - Create React App
+## Javascript Refresher
+  - import & export
