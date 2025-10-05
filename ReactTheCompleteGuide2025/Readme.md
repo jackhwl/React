@@ -8,3 +8,5 @@
     - Create React App
 ## Javascript Refresher
   - import & export
+  - Next-Gen Javascript Summary
+## React Essentials - Components, JSX, Props, State & More
