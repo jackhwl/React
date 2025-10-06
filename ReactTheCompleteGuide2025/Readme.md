@@ -16,3 +16,4 @@
   - Component Composition: The special "children" Prop
   - Reacting to Eventsnn
   - Passing Functions as Values to Props
+  - How NOT to update the UI - A look behind the scens of react
