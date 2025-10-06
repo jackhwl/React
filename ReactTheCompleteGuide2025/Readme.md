@@ -12,3 +12,4 @@
 ## React Essentials - Components, JSX, Props, State & More
   - It's all about components
   - A Closer look components & File Extensions
+  - Making components reusable with Props [Core Concept]
