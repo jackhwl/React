@@ -13,3 +13,4 @@
   - It's all about components
   - A Closer look components & File Extensions
   - Making components reusable with Props [Core Concept]
+  - Component Composition: The special "children" Prop
