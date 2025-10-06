@@ -14,3 +14,5 @@
   - A Closer look components & File Extensions
   - Making components reusable with Props [Core Concept]
   - Component Composition: The special "children" Prop
+  - Reacting to Eventsnn
+  - Passing Functions as Values to Props
