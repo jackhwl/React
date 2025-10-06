@@ -18,3 +18,4 @@
   - Passing Functions as Values to Props
   - How NOT to update the UI - A look behind the scens of react
   - Managing State & Using Hooks
+  - Rendering content conditionally
