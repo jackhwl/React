@@ -19,3 +19,5 @@
   - How NOT to update the UI - A look behind the scens of react
   - Managing State & Using Hooks
   - Rendering content conditionally
+  - Css styling & dynamic styling
+  - Outputting List data dynamically
