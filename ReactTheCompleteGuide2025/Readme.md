@@ -21,3 +21,6 @@
   - Rendering content conditionally
   - Css styling & dynamic styling
   - Outputting List data dynamically
+## React Essentials - Deep Dive
+  - Problem: Props are not forwared to inner elements
+  - Forwarding Props to wrapped elements
