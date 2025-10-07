@@ -25,3 +25,4 @@
   - Problem: Props are not forwared to inner elements
   - Forwarding Props to wrapped elements
   - Working with Multiple JSX Slots
+  - Setting component types dynamically
