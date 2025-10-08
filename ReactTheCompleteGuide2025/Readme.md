@@ -28,3 +28,4 @@
   - Setting component types dynamically
   - Setting Default Prop Values
   - Onwards to the next project & advanced
+  - Not all content must go into components
