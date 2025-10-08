@@ -34,3 +34,4 @@
   - Concept repetition: splitting components & building reusable components
   - Concept repetition: working with state
   - component Instances work in isolation
+  - Conditional content & A suboptimal way of updating state
