@@ -27,3 +27,4 @@
   - Working with Multiple JSX Slots
   - Setting component types dynamically
   - Setting Default Prop Values
+  - Onwards to the next project & advanced
