@@ -4,7 +4,7 @@ export default function Player({ name, symbol }) {
   const [playerName, setPlayerName] = useState(name)
 
   const handleClick = () => {
-      setIsEditing(!isEditing)
+      setIsEditing(editing => !editing)
       if (!isEditing) name = playerName
   }
 
