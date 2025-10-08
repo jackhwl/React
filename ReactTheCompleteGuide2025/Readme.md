@@ -32,3 +32,4 @@
   - Closer Look: public/ vs assets/ for Image Storage
   - New Project: First steps towards our tic-tac-toe
   - Concept repetition: splitting components & building reusable components
+  - Concept repetition: working with state
