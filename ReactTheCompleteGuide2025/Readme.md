@@ -29,3 +29,4 @@
   - Setting Default Prop Values
   - Onwards to the next project & advanced
   - Not all content must go into components
+  - Closer Look: public/ vs assets/ for Image Storage
