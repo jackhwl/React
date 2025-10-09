@@ -44,3 +44,4 @@
   - Prefer computed value & avoid unnecessary state management
   - Deriving State From Props
   - Sharing State Across Components
+  - Reducing State Management & Identifying unnecessary state
