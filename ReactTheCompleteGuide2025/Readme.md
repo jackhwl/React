@@ -47,3 +47,6 @@
   - Reducing State Management & Identifying unnecessary state
   - Disabling buttons conditionally
   - Outsourcing data into a separate File
+  - Lifting Computed Values Up
+  - Deriving Computed Values from other computed values
+  - Tic-tac-toe game: The game over screen & checking for a draw
