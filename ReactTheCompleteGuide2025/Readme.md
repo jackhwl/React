@@ -42,3 +42,4 @@
   - Lifting State Up
   - Avoid Intersecting States!
   - Prefer computed value & avoid unnecessary state management
+  - Deriving State From Props
