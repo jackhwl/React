@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import Player from './components/Player'
 import GameBoard from './components/GameBoard'
+import Log from './components/Log'
 
 function App() {
+  const [gameTurns, setGameTurns] = useState([])
   const [currentPlayer, setCurrentPlayer] = useState("X")
   const handleSelectSquare = () => {
     setCurrentPlayer(prevPlayer => prevPlayer === "X" ? "O" : "X")
@@ -17,6 +19,7 @@ function App() {
         </ol>
         <GameBoard onSelectSquare={handleSelectSquare} currentPlayerSymbol={currentPlayer} />
       </div>
+      <Log />
     </main>
   )
 }

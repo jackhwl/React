@@ -40,3 +40,4 @@
   - Rendering Multi-Dimensional Lists
   - Best Practice: Updating Object State Immutably
   - Lifting State Up
+  - Avoid Intersecting States!
