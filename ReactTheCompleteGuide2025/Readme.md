@@ -53,3 +53,4 @@
   - Why Immutability matters - always
   - When NOT to lift state up
   - An alternative to lifting state up
+  - Final polishing & Improving components
