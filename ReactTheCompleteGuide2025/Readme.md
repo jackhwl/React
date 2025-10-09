@@ -52,3 +52,4 @@
   - Tic-tac-toe game: The game over screen & checking for a draw
   - Why Immutability matters - always
   - When NOT to lift state up
+  - An alternative to lifting state up
