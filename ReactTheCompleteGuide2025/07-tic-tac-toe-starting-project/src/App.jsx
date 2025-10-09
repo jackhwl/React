@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Player from './components/Player'
 import GameBoard from './components/GameBoard'
 import Log from './components/Log'
+import { WINNING_COMBINATIONS } from './winning-combinations'
 
 function deriveActivePlayer(gameTurns) {
   let currentPlayer = 'X'
@@ -19,7 +20,7 @@ function App() {
   const handleSelectSquare = (rowIndex, colIndex) => {
     setGameTurns(prevTurns => {
       const activePlayer = deriveActivePlayer(prevTurns)
-      
+
       const updatedTurns = [{square: { row: rowIndex, col: colIndex }, player: activePlayer}, ...prevTurns]
       return updatedTurns
     })

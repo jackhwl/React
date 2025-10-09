@@ -45,3 +45,5 @@
   - Deriving State From Props
   - Sharing State Across Components
   - Reducing State Management & Identifying unnecessary state
+  - Disabling buttons conditionally
+  - Outsourcing data into a separate File
