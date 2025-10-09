@@ -39,3 +39,4 @@
   - User Input & Two-Way Binding
   - Rendering Multi-Dimensional Lists
   - Best Practice: Updating Object State Immutably
+  - Lifting State Up
