@@ -41,3 +41,4 @@
   - Best Practice: Updating Object State Immutably
   - Lifting State Up
   - Avoid Intersecting States!
+  - Prefer computed value & avoid unnecessary state management
