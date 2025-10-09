@@ -50,3 +50,5 @@
   - Lifting Computed Values Up
   - Deriving Computed Values from other computed values
   - Tic-tac-toe game: The game over screen & checking for a draw
+  - Why Immutability matters - always
+  - When NOT to lift state up
