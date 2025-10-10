@@ -55,3 +55,4 @@
   - An alternative to lifting state up
   - Final polishing & Improving components
 ## React: Essentials - Practice
+  - Adding a Header Component
