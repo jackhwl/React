@@ -54,3 +54,4 @@
   - When NOT to lift state up
   - An alternative to lifting state up
   - Final polishing & Improving components
+## React: Essentials - Practice
