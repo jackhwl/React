@@ -56,3 +56,4 @@
   - Final polishing & Improving components
 ## React: Essentials - Practice
   - Adding a Header Component
+  - Getting started with a user input component
