@@ -58,3 +58,4 @@
   - Adding a Header Component
   - Getting started with a user input component
   - Handling events & using two-way-binding
+  - Lifting state up
