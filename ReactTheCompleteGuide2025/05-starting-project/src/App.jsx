@@ -40,7 +40,7 @@ function App() {
     <div id="user-input">
       {
         userParams.map(({name, label, value}) =>  
-        <UserInput name={name} label={label} value={value} handleChange={handleChange}  />)
+        <UserInput key={name} name={name} label={label} value={value} handleChange={handleChange}  />)
       }
     </div>
     <Result result={calculateResult(userParams)} />

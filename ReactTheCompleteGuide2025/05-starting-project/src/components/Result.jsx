@@ -13,7 +13,7 @@ export default function Result({result}) {
       </thead>
       <tbody>
         {result.map(item => (
-            <tr>
+            <tr key={item.year}>
                 <td>{item.year}</td>
                 <td>{Math.round(item.valueEndOfYear)}</td>
                 <td>{Math.round(item.interest)}</td>

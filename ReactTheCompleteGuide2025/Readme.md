@@ -60,3 +60,4 @@
   - Handling events & using two-way-binding
   - Lifting state up
   - Computing values & properly handling number values
+  - Outputting results in a list & deriving more values
