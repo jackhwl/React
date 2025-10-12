@@ -68,3 +68,5 @@
 ## Debugging React Apps
 ## Working with Refs & Portals
   - Module Introduction & Starting Project
+  - Repetition: Managing User Input with State(Two-way-binding)
+  - Accessing DOM Elements with "refs"
