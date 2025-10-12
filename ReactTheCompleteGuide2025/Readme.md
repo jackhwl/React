@@ -65,3 +65,6 @@
 ## Styling React Components
   - Module Introduction & starting project
   - Introducing Tailwind CSS For React App Styling
+## Debugging React Apps
+## Working with Refs & Portals
+  - Module Introduction & Starting Project
