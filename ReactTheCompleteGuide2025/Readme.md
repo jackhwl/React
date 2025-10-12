@@ -62,3 +62,6 @@
   - Computing values & properly handling number values
   - Outputting results in a list & deriving more values
   - Outputting content conditionally
+## Styling React Components
+  - Module Introduction & starting project
+  - Introducing Tailwind CSS For React App Styling
