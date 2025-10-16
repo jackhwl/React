@@ -72,3 +72,4 @@
   - Accessing DOM Elements with "refs"
   - Refs vs State Values
   - Adding Challenges to the Demo Project
+  - Using Refs for More than "DOM element connections"
