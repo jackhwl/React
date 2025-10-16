@@ -74,3 +74,4 @@
   - Adding Challenges to the Demo Project
   - Setting Timers & Managing State
   - Using Refs for More than "DOM element connections"
+  - Coding exercise 22
