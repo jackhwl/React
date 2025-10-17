@@ -77,3 +77,4 @@
   - Coding exercise 22
   - Adding a Modal Component
   - Forwarding Refs to Custom Components
+  - Coding Exercise 23: Forwarding Refs
