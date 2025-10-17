@@ -75,3 +75,4 @@
   - Setting Timers & Managing State
   - Using Refs for More than "DOM element connections"
   - Coding exercise 22
+  - Adding a Modal Component
