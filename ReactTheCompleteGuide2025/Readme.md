@@ -76,3 +76,4 @@
   - Using Refs for More than "DOM element connections"
   - Coding exercise 22
   - Adding a Modal Component
+  - Forwarding Refs to Custom Components
