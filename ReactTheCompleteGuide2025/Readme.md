@@ -82,3 +82,4 @@
   - More Examples: When to use refs & state
   - Sharing State Across Components
   - Enhancing the Demo app result modal
+  - Closing the modal via the ESC key
