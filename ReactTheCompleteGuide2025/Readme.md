@@ -84,3 +84,4 @@
   - Enhancing the Demo app result modal
   - Closing the modal via the ESC key
   - Introducing & Understanding "Portals"
+  - Coding Exercise 25: Working with Portals
