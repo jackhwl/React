@@ -78,3 +78,5 @@
   - Adding a Modal Component
   - Forwarding Refs to Custom Components
   - Coding Exercise 23: Forwarding Refs
+  - Exposing Component APIs via the useImperativeHandle Hook
+  - More Examples: When to use refs & state
