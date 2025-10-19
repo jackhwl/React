@@ -91,3 +91,4 @@
   - Styling the Sidebar & Button with Tailwind CSS 
   - Adding the "new project" component & a reusable input component
   - Styling buttons & inputs with tailwind CSS
+  - Splitting components to split JSX & Tailwind Styles(for Higher Reusability)
