@@ -88,3 +88,4 @@
 ## Practice Project: Project Management App(with components, state, ref & more)
   - Module Introduction & starting project
   - Adding a Projects Sidebar component
+  - Styling the Sidebar & Button with Tailwind CSS 
