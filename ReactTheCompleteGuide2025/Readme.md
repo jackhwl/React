@@ -87,3 +87,4 @@
   - Coding Exercise 25: Working with Portals
 ## Practice Project: Project Management App(with components, state, ref & more)
   - Module Introduction & starting project
+  - Adding a Projects Sidebar component
