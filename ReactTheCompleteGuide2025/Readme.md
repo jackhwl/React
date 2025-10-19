@@ -89,3 +89,5 @@
   - Module Introduction & starting project
   - Adding a Projects Sidebar component
   - Styling the Sidebar & Button with Tailwind CSS 
+  - Adding the "new project" component & a reusable input component
+  - Styling buttons & inputs with tailwind CSS
