@@ -94,3 +94,4 @@
   - Splitting components to split JSX & Tailwind Styles(for Higher Reusability)
   - Managing state to switch between components
   - Collection user input with refs & forwared refs
+  - Handling project creation & updating the UI
