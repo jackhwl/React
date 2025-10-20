@@ -98,3 +98,4 @@
   - Validating User Input & showing an Error modal via useimperativehandle
   - Styling the modal via tailwind CSS
   - Making projects selectable & viewing project details
+  - Handling Project deletion
