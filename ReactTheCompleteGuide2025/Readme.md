@@ -99,3 +99,4 @@
   - Styling the modal via tailwind CSS
   - Making projects selectable & viewing project details
   - Handling Project deletion
+  - Adding Project Tasks & A Tasks Component
