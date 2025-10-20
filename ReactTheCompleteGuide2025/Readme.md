@@ -93,3 +93,4 @@
   - Styling buttons & inputs with tailwind CSS
   - Splitting components to split JSX & Tailwind Styles(for Higher Reusability)
   - Managing state to switch between components
+  - Collection user input with refs & forwared refs
