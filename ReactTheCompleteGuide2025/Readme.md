@@ -100,3 +100,4 @@
   - Making projects selectable & viewing project details
   - Handling Project deletion
   - Adding Project Tasks & A Tasks Component
+  - Managing Tasks & Understanding Prop Drilling
