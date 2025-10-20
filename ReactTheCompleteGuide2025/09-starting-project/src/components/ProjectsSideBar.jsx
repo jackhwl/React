@@ -1,4 +1,4 @@
-import Button from "./Botton"
+import Button from "./Button"
 
 export default function ProjectsSideBar({onStartAddProject, projects}) {
   return (

@@ -96,3 +96,4 @@
   - Collection user input with refs & forwared refs
   - Handling project creation & updating the UI
   - Validating User Input & showing an Error modal via useimperativehandle
+  - Styling the modal via tailwind CSS
