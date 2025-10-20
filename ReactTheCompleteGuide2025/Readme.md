@@ -101,3 +101,4 @@
   - Handling Project deletion
   - Adding Project Tasks & A Tasks Component
   - Managing Tasks & Understanding Prop Drilling
+  - clearing tasks & fixing minor bugs

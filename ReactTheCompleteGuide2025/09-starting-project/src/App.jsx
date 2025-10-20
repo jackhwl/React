@@ -73,7 +73,7 @@ function App() {
     content = <NoProjectSelected onStartAddProject={handleStartAddProject} />;  }
   return (
     <main className="h-screen my-8 flex gap-8">
-      <ProjectsSideBar onStartAddProject={handleStartAddProject} onSelectProject={handleSelectProject} projects={projectState.projects} />
+      <ProjectsSideBar onStartAddProject={handleStartAddProject} onSelectProject={handleSelectProject} projects={projectState.projects} selectedProjectId={projectState.selectedProjectId} />
       {content}
     </main>
   );
