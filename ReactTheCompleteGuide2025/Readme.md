@@ -102,3 +102,6 @@
   - Adding Project Tasks & A Tasks Component
   - Managing Tasks & Understanding Prop Drilling
   - clearing tasks & fixing minor bugs
+## React's Context API & useReducer - Advanced State Management
+  - module introduction
+  - initial project
