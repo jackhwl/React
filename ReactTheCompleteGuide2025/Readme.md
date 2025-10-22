@@ -113,3 +113,4 @@
   - A different way of consuming context: context.consumer
   - What happens when context values change?
   - Migrating the entire demo project to use the context api
+  - Outsourcing context & state into a separate provider component
