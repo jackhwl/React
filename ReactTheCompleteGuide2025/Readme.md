@@ -106,3 +106,5 @@
   - module introduction
   - initial project
   - Prop Drilling: Component Composition as a solution
+  - Introducing the Context API
+  - Creating & Providing the context
