@@ -110,3 +110,4 @@
   - Creating & Providing the context
   - Consuming the Context
   - Linking the context to state
+  - A different way of consuming context: context.consumer
