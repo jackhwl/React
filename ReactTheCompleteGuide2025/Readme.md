@@ -105,3 +105,4 @@
 ## React's Context API & useReducer - Advanced State Management
   - module introduction
   - initial project
+  - Prop Drilling: Component Composition as a solution
