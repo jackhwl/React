@@ -112,3 +112,4 @@
   - Linking the context to state
   - A different way of consuming context: context.consumer
   - What happens when context values change?
+  - Migrating the entire demo project to use the context api
