@@ -116,3 +116,4 @@
   - Outsourcing context & state into a separate provider component
   - Coding Exercise 26: Creating & Using Context
   - Introducing the useReducer Hook
+  - Dispatching Actions & Editing State with useReducer
