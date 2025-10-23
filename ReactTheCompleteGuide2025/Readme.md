@@ -114,3 +114,5 @@
   - What happens when context values change?
   - Migrating the entire demo project to use the context api
   - Outsourcing context & state into a separate provider component
+  - Coding Exercise 26: Creating & Using Context
+  
