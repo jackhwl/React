@@ -117,3 +117,5 @@
   - Coding Exercise 26: Creating & Using Context
   - Introducing the useReducer Hook
   - Dispatching Actions & Editing State with useReducer
+## Handling Side Effects & Working with the useEffect() Hook
+  - Module Introduction & starting project
