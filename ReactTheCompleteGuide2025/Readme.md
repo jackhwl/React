@@ -128,3 +128,4 @@
   - Using useEffect for Syncing with Browser APIs
   - Understanding Effect Dependencies
   - Fixing a small bug
+  - Preparing Another problem that can be fixed with useEffect
