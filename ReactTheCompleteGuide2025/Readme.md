@@ -122,3 +122,4 @@
   - What's a side effect? a thorough example
   - A potential problem with side effects: an infinite
   - Using useEffect for handling (some) side effects
+  - Not all side effects need useEffect
