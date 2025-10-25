@@ -134,3 +134,5 @@
   - The useCallback Hook
   - useEffect's Cleanup Function: Another Example
   - Optimizing State Updates & open dialog only open is set
+## Practice Project: Building a Quiz
+  - Module Introduction & Starting Project
