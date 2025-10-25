@@ -126,3 +126,4 @@
   - useEffect Not Needed: Another Example
   - Preparing another use-case for useEffect
   - Using useEffect for Syncing with Browser APIs
+  - Understanding Effect Dependencies
