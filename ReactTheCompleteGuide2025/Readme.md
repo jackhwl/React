@@ -123,3 +123,4 @@
   - A potential problem with side effects: an infinite
   - Using useEffect for handling (some) side effects
   - Not all side effects need useEffect
+  - useEffect Not Needed: Another Example
