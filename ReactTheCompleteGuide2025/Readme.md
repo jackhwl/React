@@ -120,3 +120,4 @@
 ## Handling Side Effects & Working with the useEffect() Hook
   - Module Introduction & starting project
   - What's a side effect? a thorough example
+  - A potential problem with side effects: an infinite
