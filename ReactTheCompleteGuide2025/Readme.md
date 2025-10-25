@@ -133,3 +133,4 @@
   - The Problem with Object & Function
   - The useCallback Hook
   - useEffect's Cleanup Function: Another Example
+  - Optimizing State Updates & open dialog only open is set
