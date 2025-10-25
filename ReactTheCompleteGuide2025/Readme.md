@@ -129,3 +129,6 @@
   - Understanding Effect Dependencies
   - Fixing a small bug
   - Preparing Another problem that can be fixed with useEffect
+  - Introducing useEffect's cleanup function
+  - The Problem with Object & Function
+  - The useCallback Hook
