@@ -138,3 +138,4 @@
   - Module Introduction & Starting Project
   - A First Component & Some State
   - Deriving Values, outputting questions & registering Answers
+  - Shuffling answers & adding quiz logic
