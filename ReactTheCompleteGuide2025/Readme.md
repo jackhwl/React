@@ -137,3 +137,4 @@
 ## Practice Project: Building a Quiz
   - Module Introduction & Starting Project
   - A First Component & Some State
+  - Deriving Values, outputting questions & registering Answers

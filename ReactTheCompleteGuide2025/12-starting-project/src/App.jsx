@@ -1,10 +1,13 @@
 import Header from "./components/Header";
+import Quiz from "./components/Quiz";
 
 function App() {
     return (
         <>
         <Header />
-        <h1>React Quiz App!</h1>
+        <main>
+            <Quiz />
+        </main>
         </>
         );
 }
