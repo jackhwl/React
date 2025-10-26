@@ -136,3 +136,4 @@
   - Optimizing State Updates & open dialog only open is set
 ## Practice Project: Building a Quiz
   - Module Introduction & Starting Project
+  - A First Component & Some State
