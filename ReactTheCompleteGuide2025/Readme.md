@@ -141,4 +141,4 @@
   - Shuffling answers & adding quiz logic
   - Adding Question Timers
   - Using Effect cleanup functions & using keys for resetting components
-  
+  - Hightlighting selected answers & managing more state
