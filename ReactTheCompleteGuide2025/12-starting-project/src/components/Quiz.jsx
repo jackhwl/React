@@ -1,9 +1,11 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import QUESTIONS from "../questions.js";
 import quizCompleteImg from "../assets/quiz-complete.png";
 import QuestionTimer from "./QuestionTimer.jsx";
+import { use } from "react";
 
 export default function Quiz() {
+    const shuffledAnswers = useRef()
     const [answerState, setAnswerState] = useState('');
     const [userAnswers, setUserAnswers] = useState([]);
 
@@ -34,17 +36,21 @@ export default function Quiz() {
         return <div id="summary">
             <img src={quizCompleteImg} alt="Trophy icon" />
             <h2>You've completed the quiz!</h2>
-            <p>Your score: {userAnswers.filter((answer, index) => answer === QUESTIONS[index].correctAnswer).length} / {QUESTIONS.length}</p>
+            <p>Your score: {userAnswers.filter((answer, index) => answer === QUESTIONS[index]).length} / {QUESTIONS.length}</p>
         </div>;
     }
-    const shuffledAnswers = [...QUESTIONS[activeQuestionIndex].answers];
-    shuffledAnswers.sort(() => Math.random() - 0.5);
+
+    if (!shuffledAnswers.current) {
+        shuffledAnswers.current = [...QUESTIONS[activeQuestionIndex].answers];
+        shuffledAnswers.current.sort(() => Math.random() - 0.5);
+    }
+
     return <div id="quiz">
         <div id="question">
             <QuestionTimer key={activeQuestionIndex} timeout={10000} onTimeout={handleSkipAnswer} />
             <h2>{QUESTIONS[activeQuestionIndex].text}</h2>
             <ul id="answers">
-                {shuffledAnswers.map((answer, index) => {
+                {shuffledAnswers.current.map((answer, index) => {
                     const isSelected = userAnswers[userAnswers.length - 1] === answer;
                     let cssClasses = '';
                     if (answerState === 'answered' && isSelected) {
@@ -55,7 +61,7 @@ export default function Quiz() {
                     }
                     return (
                         <li key={index} className="answer">
-                            <button onClick={() => handleSelectAnswer(answer)} className={answerState === 'correct' ? 'correct' : 'wrong'}>{cssClasses}</button>
+                            <button onClick={() => handleSelectAnswer(answer)} className={cssClasses}>{answer}</button>
                         </li>
                     );
                 })}
