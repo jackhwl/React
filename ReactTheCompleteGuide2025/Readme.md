@@ -144,3 +144,4 @@
   - Hightlighting selected answers & managing more state
   - Splitting components up to solve problems
   - Moving logic to components that actually need it (moving state down)
+  - Setting Different timers based on the selected answer
