@@ -143,3 +143,4 @@
   - Using Effect cleanup functions & using keys for resetting components
   - Hightlighting selected answers & managing more state
   - Splitting components up to solve problems
+  - Moving logic to components that actually need it (moving state down)
