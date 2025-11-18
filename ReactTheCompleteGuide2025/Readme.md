@@ -146,3 +146,5 @@
   - Moving logic to components that actually need it (moving state down)
   - Setting Different timers based on the selected answer
   - Outputting Quiz Results
+## A Look behind the scenes of React & Optimization Techniques
+  - Module Introduction & Starting Project
