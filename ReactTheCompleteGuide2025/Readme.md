@@ -148,3 +148,4 @@
   - Outputting Quiz Results
 ## A Look behind the scenes of React & Optimization Techniques
   - Module Introduction & Starting Project
+  - React Builds A Component Tree / How React Works Behind The Scenes
