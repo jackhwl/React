@@ -151,3 +151,5 @@
   - React Builds A Component Tree / How React Works Behind The Scenes
     - how does react update the DOM  
     - component tree
+  - Analyzing coomponent fountion executions via react's devtools profiler
+    - React Developer Tools extension
