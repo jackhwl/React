@@ -155,3 +155,4 @@
     - React Developer Tools extension
       - profiler
   - Avoiding component function executions with memo()
+    - don't overuse memo(), only use at the highest component tree
