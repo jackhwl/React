@@ -154,3 +154,4 @@
   - Analyzing coomponent fountion executions via react's devtools profiler
     - React Developer Tools extension
       - profiler
+  - Avoiding component function executions with memo()
