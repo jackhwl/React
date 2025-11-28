@@ -158,3 +158,4 @@
     - don't overuse memo(), only use at the highest component tree
   - Avoiding component function executions with clever structuring
   - Understanding the useCallback() Hook
+    - using useCallback to stop function re-generated
