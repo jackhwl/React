@@ -160,3 +160,4 @@
   - Understanding the useCallback() Hook
     - using useCallback to stop function re-generated
   - Understanding the useMemo() Hook
+  - React Uses A Virtual DOM - Timer To Explore It!
