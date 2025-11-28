@@ -159,3 +159,4 @@
   - Avoiding component function executions with clever structuring
   - Understanding the useCallback() Hook
     - using useCallback to stop function re-generated
+  - Understanding the useMemo() Hook
