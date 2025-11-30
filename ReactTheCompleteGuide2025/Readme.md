@@ -165,3 +165,4 @@
   - More Reasons For Why Keys Matter
   - Using Keys for resetting components
   - State Scheduling & Batching
+  - Optimzing react with MillionJS
