@@ -164,3 +164,4 @@
   - Why Keys Matter When Managing State!
   - More Reasons For Why Keys Matter
   - Using Keys for resetting components
+  - State Scheduling & Batching
