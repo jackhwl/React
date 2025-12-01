@@ -166,3 +166,7 @@
   - Using Keys for resetting components
   - State Scheduling & Batching
   - Optimzing react with MillionJS
+## An Alternative way of building components: class-based components
+  - Module Introduction
+  - What & Why
+  - Adding a first class-based component
